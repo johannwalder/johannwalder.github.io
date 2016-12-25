@@ -8,6 +8,7 @@ github_username:  johannwalder
 
 markdown: kramdown
   input: GFM
+  parse_block_html: true
 
 google_analytics: UA-89445038-1
 
