@@ -7,6 +7,8 @@ twitter_username: johannwalder
 github_username:  johannwalder
 linkedin_username:  johannwalder
 
+permalink: /:categories/:year/:month/:day/:title/
+
 markdown: kramdown
 kramdown:
   input: GFM
