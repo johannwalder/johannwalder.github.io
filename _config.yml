@@ -14,8 +14,6 @@ kramdown:
 
 google_analytics: UA-89445038-1
 
-gems:
-  - jekyll-feed
 exclude:
   - Gemfile
   - Gemfile.lock
