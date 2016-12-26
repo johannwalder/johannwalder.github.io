@@ -9,6 +9,11 @@
 	<span class="icon icon--github">{% include icon-github.svg %}</span>
   </a>
   {% endif %}
+  {% if site.linkedin_username %}
+  <a href="https://fi.linkedin.com/in/{{ site.linkedin_username }}">
+	<span class="icon icon--linkedin">{% include icon-linkedin.svg %}</span>
+  </a>
+  {% endif %}
   <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
 	<span class="icon icon--feeds">{% include icon-feeds.svg %}</span>
   </a>
