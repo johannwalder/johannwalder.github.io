@@ -1,0 +1,15 @@
+<div class="social-list">
+  {% if site.twitter_username %}
+  <a href="https://twitter.com/{{ site.twitter_username }}">
+	<span class="icon icon--twitter">{% include icon-twitter.svg %}</span>
+  </a>
+  {% endif %}
+  {% if site.github_username %}
+  <a href="https://github.com/{{ site.github_username }}">
+	<span class="icon icon--github">{% include icon-github.svg %}</span>
+  </a>
+  {% endif %}
+  <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
+	<span class="icon icon--feeds">{% include icon-feeds.svg %}</span>
+  </a>
+</div>

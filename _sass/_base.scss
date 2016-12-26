@@ -13,3 +13,16 @@ ul, ol, dl, figure,
 %vertical-rhythm {
     margin-bottom: 1em;
 }
+
+a {
+    color: $brand-color;
+    text-decoration: none;
+}
+
+.icon {
+    > svg {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+    }
+}
