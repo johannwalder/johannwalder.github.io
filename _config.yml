@@ -9,6 +9,7 @@ linkedin_username:  johannwalder
 disqus: johannwalder
 
 permalink: /:categories/:year/:month/:day/:title/
+contenturl: "/blog/content/"
 
 markdown: kramdown
 kramdown:
