@@ -10,6 +10,7 @@ disqus: johannwalder
 
 permalink: /:categories/:year/:month/:day/:title/
 contenturl: "/blog/content/"
+excerpt_separator: <!--more-->
 
 markdown: kramdown
 kramdown:
