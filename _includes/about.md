@@ -1,5 +1,5 @@
 {: .profile-image}
-![Johann Walder](Content/johannwalder.jpg)
+![Johann Walder](/content/johannwalder.jpg)
 
 My name is Johann Walder. I have been working as a software developer for over 14 years during which time I have collected a lot of different experiences.
 
