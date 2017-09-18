@@ -7,16 +7,50 @@ body {
     background: $background-color;
 }
 
+nav.site-nav {
+	padding: 20px 0;
+}
+
+.site-nav > a {
+	font-family: Arial,Tahoma,Helvetica,sans-serif;
+	font-size: 1.14em;
+	padding: 10px 18px;
+}
+
+/* Theme selection */
+.dropdown {
+	float: right;
+}
+.btn-primary {
+	background-color: $brand-color;
+	border-color: $brand-color;
+}
+.btn-primary:hover {
+	background-color: $text-color;
+	border-color: $text-color;
+}
+
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-    margin-bottom: 1em;
+    margin-bottom: 0.2em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: $brand-color;
+}
+
+h1 {
+	font-size: 1.8em;
 }
 
 a {
     color: $brand-color;
     text-decoration: none;
+}
+a:hover {
+	color: $brand-color;
 }
 
 .icon {
@@ -25,4 +59,75 @@ a {
         width: 16px;
         height: 16px;
     }
+}
+
+blockquote {
+  border-left:3px solid $brand-color;
+  margin:0;
+  padding:0 0 0 20px;
+  font-style:italic;
+}
+
+section {
+  #title {
+    border: 0;
+    outline: none;
+    margin: 0 0 50px 0;
+    padding: 0 0 5px 0;
+
+    h1 {
+      font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: normal;
+      font-size: 40px;
+      text-align: center;
+      line-height: 36px;
+    }
+
+    p {
+      color: #d7cfbe;
+      font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: normal;
+      font-size: 18px;
+      text-align: center;
+    }
+
+    .credits {
+      font-size: 11px;
+      font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: normal;
+      color: #696969;
+      margin-top: -10px;
+
+      &.left {
+        float: left;
+      }
+
+      &.right {
+        float: right;
+      }
+    }
+
+  }
+}
+
+p.post-image > img {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #aaa;
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+p.profile-image > img {
+	background: none repeat scroll 0 0 #fff;
+    border: 1px solid #aaa;
+	width: 300px;
+}
+
+table th, table td {
+    padding: 8px;
+    line-height: 20px;
+    text-align: left;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+	border-collapse: collapse;
 }
