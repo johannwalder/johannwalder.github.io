@@ -1,10 +1,10 @@
 ---
-layout: default
+layout: front
 section: home
 ---
     <section>
-      {% include about.md %}
       <div class="page-content">
+	    {% capture about_include %}{% include about.md %}{% endcapture %}
         <div class="wrapper col-2">
         {{ about_include | markdownify }}
         </div>
