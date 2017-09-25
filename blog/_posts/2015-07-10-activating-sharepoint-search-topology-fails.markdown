@@ -23,14 +23,14 @@ $searchTopology.Activate()
 
 The command above resulted in the following error:
 
-```powershell
+{% highlight powershell-error %}
 Exception calling "Activate" with "0" argument(s): "Topology does not contain any components of type Microsoft.Office.Server.Search.Administration.Topology.AdminComponent"
 At line:1 char:1
 + $SearchTopology.Activate()
 + ~~~~~~~~~~~~~~~~~~~~~~~~~~
     + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
     + FullyQualifiedErrorId : InvalidTopologyException
-```
+{% endhighlight %}
 
 We have followed many different troubleshooting steps including but not limited to checking permissions on all related Search Service databases and folders.
 
