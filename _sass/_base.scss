@@ -123,6 +123,25 @@ p.profile-image > img {
 	width: 300px;
 }
 
+.container {
+  text-align: center;
+  padding: 15px;  
+}
+
+.profile-image-container {
+    display: inline-block;
+    max-width: 300px;
+    text-align: left;
+    margin-right: 30px;
+    vertical-align: top;
+}
+
+.about-content {
+    display: inline-block;
+    max-width: 300px;
+    text-align: left;
+}
+
 table th, table td {
     padding: 8px;
     line-height: 20px;
