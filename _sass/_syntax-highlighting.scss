@@ -31,3 +31,11 @@
 .n, .p, .nb, .ni, .nl, .nn, .py, .w , .nv, .bp, .vc, .vg, .vi { color: #f8f8f2 }
 .il, .l, .m, .mf, .mh, .mi, .mo, .se { color: #ae81ff }
 .ld, .s, .sb, .sc, .sd, .s2, .sh, .si, .sx, .sr, .s1, .ss { color: #e6db74 }
+
+pre.highlight {
+    word-wrap: normal;
+}
+
+pre.highlight code {
+    white-space: pre;
+}
