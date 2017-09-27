@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Activating SharePoint Search Topology fails"
+title:  "Custom column not displaying with content type"
 date:   2016-03-13 12:00:00
 categories: 
 ---
