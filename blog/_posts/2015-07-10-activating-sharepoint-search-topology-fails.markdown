@@ -3,6 +3,7 @@ layout: post
 title:  "Activating SharePoint Search Topology fails"
 date:   2015-07-10 12:00:00
 categories: 
+tags: sharepoint
 ---
 {: .post-image}
 ![search service application]({{ site.contenturl }}20151007-search-service-application.png)

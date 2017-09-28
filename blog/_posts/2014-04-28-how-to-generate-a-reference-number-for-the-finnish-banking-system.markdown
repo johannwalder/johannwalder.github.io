@@ -3,6 +3,7 @@ layout: post
 title:  "How to generate a reference number for the Finnish banking system"
 date:   2014-04-25 12:00:00
 categories: 
+tags: ecommerce invoice
 ---
 {: .post-image}
 ![example reference number]({{ site.contenturl }}20140428-reference-number.png)

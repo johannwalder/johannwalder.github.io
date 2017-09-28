@@ -3,6 +3,7 @@ layout: post
 title:  "Custom column not displaying with content type"
 date:   2016-03-13 12:00:00
 categories: 
+tags: sharepoint
 ---
 {: .post-image}
 ![invalid field name]({{ site.contenturl }}20160313-invalid-field-name.png)

@@ -3,6 +3,7 @@ layout: post
 title:  "Federated users login requests randomly time out"
 date:   2015-09-02 12:00:00
 categories: 
+tags: sharepoint
 ---
 {: .post-image}
 ![win proxy setttings]({{ site.contenturl }}20150902-win-proxy-settings.png)
