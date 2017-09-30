@@ -34,6 +34,10 @@ $content-width:    800px;
 	background-color: darken($grey-color, 25%);
 }
 
+.icon--github {
+    fill: $svg-icon-color;
+}
+
 @import
         "base",
         "layout",
