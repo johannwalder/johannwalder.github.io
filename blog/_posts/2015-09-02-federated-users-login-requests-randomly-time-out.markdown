@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Federated users login requests randomly time out"
-date:   2015-09-02 12:00:00
+date:   2015-09-02
 categories: 
 tags: sharepoint
 ---
