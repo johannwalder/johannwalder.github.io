@@ -1,5 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: configuration"
+title: "configuration"
 tag: configuration
 ---

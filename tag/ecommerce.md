@@ -1,5 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: ecommerce"
+title: "ecommerce"
 tag: ecommerce
 ---
