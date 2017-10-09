@@ -4,4 +4,5 @@ title: "sharepoint"
 tag: sharepoint
 sitemap:
     exclude: 'yes'
+noindex: true
 ---

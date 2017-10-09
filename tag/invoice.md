@@ -4,4 +4,5 @@ title: "invoice"
 tag: invoice
 sitemap:
     exclude: 'yes'
+noindex: true
 ---

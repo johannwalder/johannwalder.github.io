@@ -4,4 +4,5 @@ title: ".net"
 tag: dotnet
 sitemap:
     exclude: 'yes'
+noindex: true
 ---
